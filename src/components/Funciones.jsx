@@ -29,11 +29,11 @@ export function Funciones () {
           <p>Las funciones se pueden clasificar en dos grandes grupos:</p>
           <ul>
             <li>
-              <strong className="strong-elem">Funciones elementales</strong>
+              <strong className='strong-elem'>Funciones elementales</strong>
               <p>Una función elemental es una función que se puede expresar utilizando un número finito de operaciones aritméticas básicas (suma, resta, multiplicación, división), funciones trigonométricas (seno, coseno, tangente), funciones exponenciales (elevado a una potencia) y funciones logarítmicas (logaritmo natural o de base 10).</p>
             </li>
             <li>
-              <strong className="strong-elem">Funciones compuestas</strong>
+              <strong className='strong-elem'>Funciones compuestas</strong>
               <p>Una función compuesta es una función que se obtiene al aplicar una función a los resultados de otra función. En otras palabras, es una función que está compuesta por dos o más funciones.</p>
             </li>
           </ul>
@@ -44,15 +44,6 @@ export function Funciones () {
           <img src='img/prueba-linea-vertical.png' alt='Prueba de la línea vertical' />
         </article>
       </section>
-      <footer>
-        <h2 id='integrantes'>Integrantes del grupo</h2>
-        <ul>
-          <li><p>Juan Valencia</p></li>
-          <li><p>Ronald Squea</p></li>
-          <li><p>Geraldine Ocampo</p></li>
-          <li><p>Alex García</p></li>
-        </ul>
-      </footer>
     </main>
   )
 }
