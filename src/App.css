@@ -1,0 +1,51 @@
+:root {
+  --font-contrastcolor: #f8b2b2;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+header ul {
+  display: flex;
+  font-size: 1.3em;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li:hover {
+  background-color: #3c3c3d;
+  border-radius: 5px;
+  text-decoration: underline;
+  padding: 2px 20px;
+}
+
+header ul li a {
+  width: 100%;
+  color: var(--font-contrastcolor);
+}
+
+.examples {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+}
+
+.strong-elem {
+  font-weight: bolder;
+  font-size: 24px;
+}
